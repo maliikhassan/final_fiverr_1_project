@@ -18,7 +18,7 @@ class _MetronomeAppState extends State<MetronomeApp> {
   Timer? _timer;
   int bpm = 100; // Beats per minute
   bool isPlaying = false;
-  final AudioElement beep = AudioElement('assets/sounds/beat.mp3');
+  final AudioElement beep = AudioElement('assets/assets/sounds/beat.mp3');
   bool isPlaying2 = false;
   bool isMuted = false;
 
